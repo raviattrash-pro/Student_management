@@ -1,13 +1,58 @@
+/* Background styles */
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    background-image: url('https://www.ei-ie.org/image/BoRWjHSRRMr843ionpAgeWLS6yQPCh7e7fm246xg.jpg/lead.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    margin: 0;  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+
+/* Glassmorphism card effect */
+.table-container {
+   backdrop-filter: blur(1px) saturate(180%);
+    -webkit-backdrop-filter: blur(1px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.77);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    color: white;
+    margin:auto;
+    width: 60%;}
+
+
+
+    .dashboard-title{
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+     text-shadow: 0 0 5px #ff005e, 0 0 10px #ff005e, 0 0 20px #ff005e, 0 0 40px #ff005e, 0 0 80px #ff005e;
+    animation: glow 1s infinite alternate;
+    margin-bottom: 20px;
+    }
+     
+   
+
+    @keyframes glow-title {
+      20% {
+        text-shadow: 0 0 5px #ff005e, 0 0 10px #ff005e, 0 0 20px #ff005e, 0 0 40px #ff005e, 0 0 80px #ff005e;
+    }
+      40% {
+        text-shadow: 0 0 10px #1100ff, 0 0 20px #ff005e, 0 0 40px #ff005e, 0 0 80px #ff005e, 0 0 160px #ff005e;
+    }
+      60% {
+        text-shadow: 0 0 20px #9dff00, 0 0 40px #ff005e, 0 0 80px #ff005e, 0 0 160px #ff005e, 0 0 320px #ff005e;
+    }
+      80% {
+        text-shadow: 0 0 40px #ff3300, 0 0 80px #ff005e, 0 0 160px #ff005e, 0 0 320px #ff005e, 0 0 640px #ff005e;
+      }
+    
+    100% {
+        text-shadow: 0 0 10px #00d4ff, 0 0 20px #00d4ff, 0 0 40px #00d4ff, 0 0 80px #00d4ff, 0 0 160px #00d4ff;
+    }
+    }
+/*https://tws.edu.in/wp-content/uploads/2025/07/Best-boarding-school-in-India.jpeg */
+
